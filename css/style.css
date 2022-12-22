@@ -82,8 +82,8 @@ ul{
 
 .header-items{
     display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;    
+    padding-top: 32px;
+    padding-bottom: 32px;    
     color: var(--title-color);
 
     font-weight: 500;
@@ -129,10 +129,9 @@ ul{
 
 }
 
-.contact{
+.header-contact{
 
     color: var(--text-color);
-
     font-style: normal;
 
     font-weight: 500;
@@ -140,8 +139,8 @@ ul{
     line-height: 1.14;  
     letter-spacing: 0.02em;
 }
-.contact:hover,
-.contact:focus{
+.header-contact:hover,
+.header-contact:focus{
     color: var(--hover-color);
 }
 
@@ -167,27 +166,35 @@ ul{
 
 
 .hero{
-
-
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 200px;
+    padding-top: 200px;
     text-align: center;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
+    max-width: 1600px;
+     
     background: #2F303A;
 
     margin-bottom: 94px;
 
 }
 
+.hero-position{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
 .hero-title{
-    margin-top: 0;
+
     margin-bottom: 30px;
-    position: absolute;
+
+
+
     width: 696px;
     height: 120px;
-    left: 452px;
-    top: 280px;
+ 
     color: #FFFFFF;
     
     font-size: 44px;
@@ -206,7 +213,8 @@ ul{
     height: 50px;
     left: 692px;
     top: 430px;
-    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
 
 
     font-family: 'Roboto';
@@ -223,6 +231,7 @@ ul{
 /* Features section */
 
 .features{
+    
     margin-top: 0;
     margin-bottom: 50px;
 
@@ -279,13 +288,8 @@ ul{
     text-align: center;
 }
 
-.add-color{
-    background-color: #F5F4FA;
-}
 
-.photo{
-    display: inline-block;
-}
+
 
 
 .work-item{
@@ -305,7 +309,7 @@ ul{
 
 .team{
     margin-bottom: 50px;
-    padding-top: 94px;
+    /* padding-top: 94px; */
     color: var(--title-color);
 
     font-weight: 700;
@@ -321,9 +325,25 @@ ul{
     margin: 0;
 }
 
+.team-list{
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .link-team .team-list:nth-child(1n):not(:last-child){
     margin-right: 30px;
 }
+
+.add-color{
+    background-color: #F5F4FA;
+    padding-top: 94px;
+}
+
+.line{
+    border-bottom: 1px solid #ECECEC;
+}
+
 
 
 
@@ -361,7 +381,7 @@ ul{
 .specialty-workers{
 
 
-    margin-bottom: 0;
+    margin-bottom: 30px;
     margin-top: 0;
     color: var(--text-color);
 
@@ -385,6 +405,8 @@ ul{
     padding: 0 91px;
 }
 
+
+/* Footer section */
 .footer-logo{
     display: inline-block;
     margin-top: 60px;
@@ -399,8 +421,9 @@ ul{
 
 
 
-.address{
 
+.address{
+    font-style: normal;
 
     color: #FFFFFF;
     
@@ -409,6 +432,18 @@ ul{
     line-height: 1.71;
 
 }
+
+.footer-contact{
+    color: rgba(255, 255, 255, 0.6);;
+    font-style: normal;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;  
+    letter-spacing: 0.02em;
+}
+
+
 
 .footer-list{
 
@@ -419,6 +454,7 @@ ul{
 
 
 .footer{
+
     margin-top: 0;
     margin-bottom: 0;
     background-color: #2F303A;
@@ -432,11 +468,15 @@ ul{
 
 /* Main Portolio */
 
+.section-additional{
+    padding-top: 94px;
+}
+
 
 .our-works{
+  
     margin-top: 0;
     margin-bottom: 50px;
-    padding-top: 94px;
     text-align: center;
 }
 
@@ -483,11 +523,14 @@ ul{
     color: #FFFFFF;
 }
 
-
+.cards{
+    border: 1px solid #EEEEEE
+}
 
 
 
 .title-img{
+    padding: 20px 24px 4px 24px;
     color: var(--title-color);
 
     font-weight: 700;
@@ -498,6 +541,7 @@ ul{
 }
 
 .text-img{
+    padding: 4px 24px 20px 24px;
     color: var(--text-color);
 
     font-weight: 400;
