@@ -327,7 +327,12 @@ ul{
 
 
 
+
+
+
 .workers{
+    display: inline-block;
+
     margin-top: 21.5px;
     margin-bottom: 10px;
     color: var(--title-color);
@@ -338,7 +343,24 @@ ul{
     letter-spacing: 0.03em;
 }
 
+.workers-first{
+    padding: 0 70px;
+}
+.workers-second{
+    padding: 0 83px;
+}
+.workers-three{
+    padding: 0 69px;
+    
+}
+.workers-four{
+    padding: 0 55px;
+}
+
+
 .specialty-workers{
+
+
     margin-bottom: 0;
     margin-top: 0;
     color: var(--text-color);
@@ -350,8 +372,18 @@ ul{
     
 }
 
-
-
+.specialty-workers-first{
+    padding: 0 69px;
+}
+.specialty-workers-second{
+    padding: 0 61px;
+}
+.specialty-workers-three{
+    padding: 0 95px;
+}
+.specialty-workers-four{
+    padding: 0 91px;
+}
 
 .footer-logo{
     display: inline-block;
