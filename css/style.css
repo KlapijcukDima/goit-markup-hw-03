@@ -231,7 +231,7 @@ ul{
 /* Features section */
 
 .features{
-    
+    visibility: hidden;
     margin-top: 0;
     margin-bottom: 50px;
 
@@ -474,9 +474,8 @@ ul{
 
 
 .our-works{
-  
+  visibility: hidden;
     margin-top: 0;
-    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -486,6 +485,8 @@ ul{
     column-gap: 8px;
     margin-bottom: 34px;
 }
+
+
 
 .item-img{
     display: flex;
